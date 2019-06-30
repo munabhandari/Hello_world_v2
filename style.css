@@ -1,0 +1,78 @@
+nav {
+  background-color: #343a40;
+  padding: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(211, 213, 214);
+}
+
+.left-comp {
+  float: left;
+}
+
+.right-comp {
+  float: right;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  color: #329748;
+  border: 1px solid green;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.logo{
+  font-size:20px;
+  color: white;
+}
+
+/* features */
+.clearfix {
+  overflow: auto;
+}
+.active {
+  color: white;
+}
+
+.disabled {
+  color: darkgray;
+}
+
+header a {
+  background-color: #1879fa;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+header {
+  background-color: aliceblue;
+  padding: 3px 10% 50px 10%;
+  
+}
+
+section a {
+  text-decoration: none;
+  background-color: rgb(110, 106, 106);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 3px;
+}
+section{
+  display: flex;
+  padding: 3px 10% 50px 10%;
+}
+
+section article:nth-child(2) {
+  padding: 0 15px;
+}
+hr {
+  color: #ebebeb;
+}
+
+footer {
+  padding: 3px 10% 50px 10%;
+}
